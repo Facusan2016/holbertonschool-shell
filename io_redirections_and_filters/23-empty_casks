@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laR | cut -d ' ' -f 13
+ls -laR | rev | cut -d ' ' -f 1 | rev

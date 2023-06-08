@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -Al | head -1 | tr -d 'total ' 
